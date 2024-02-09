@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, 
+                       initial-scale=1.0">
+        <link rel="stylesheet" href="alarm1.css">
+        <title> Alarm Clock</title>
+    </head>
+    <body>
+        <div class="clock">
+            <h1>
+                Alarm Clock
+            </h1>
+
+            <h3>
+                A Simple clock-alarm in HTML CSS AND JAVASCRIPT
+            </h3>
+
+            <!-- for showing time  -->
+
+            <div class="time" >
+                
+                <div id="time">
+
+                </div>
+            </div>
+
+            <!-- for getting input from user -->
+            
+            <div class="inputContainer">
+                 
+                        <input type="number" id="hour" name="hour" min="0" max="12" placeholder="Hours" required >
+                        <input type="number" id="minute" name="minute" min="0" max="60" placeholder="Minutes" required>
+                        <input type="number" id='second' name="second" min="0" max="60" placeholder="Seconds" required>
+                        <select name="zone" id="zone" >
+                            <option value='' disabled selected>Zone</option>
+                            <option value="AM">AM</option>
+                            <option value="PM">PM</option>
+                        </select>
+                    
+                
+                <button id="setAlarm">Set Alarm</button> 
+
+                
+            </div>
+
+                 <!--All set alarms will displayed here  -->
+        
+            
+            <div id="alarms" class="alarms">
+                <h2>Set Alarms</h2>
+            </div>
+        </div>
+
+        <audio id="alarm-audio" src="./audiolist/WhatsApp Audio 2024-02-02 at 16.32.35_ed0a8543.mp3"> </audio>
+        
+       <script type="text/javascript" src="alarm1.js"></script>
+        
+    </body> 
+</html>

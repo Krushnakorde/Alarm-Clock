@@ -1,0 +1,69 @@
+
+/* for background */
+.clock{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:aqua
+}
+
+
+/* for showing time function */
+.time{
+    background-color:khaki;
+    font-size: 4rem;
+    padding:20px;
+    border-radius: 10px;
+
+}
+
+/*  for inputs */
+
+
+.inputContainer{
+    
+    height:30px;
+
+    margin-top: 30px;
+    
+    
+}
+
+.inputContainer input,button,select{
+    background-color: rgb(2, 204, 250);
+    border:2px solid black;
+}
+
+/* for showing all alarms set by users */
+
+.alarms{
+    width:50vh;
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    background-color: rgb(12, 253, 181);
+    border-radius: 30px;
+    margin-top:30px;
+}
+
+
+.delete-alarm{
+    background-color: bisque;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+
+.alarms span{
+
+    background-color: rgb(3, 249, 179);
+    margin:70px 0px 70px 0px;
+    border-radius: 4px;
+
+}
+
+
+
+
